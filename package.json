@@ -11,6 +11,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "test": "jest --silent",
+    "testleaks": "jest --detectOpenHandles --silent",
     "test:verbose": "jest",
     "build": "tsc"
   },
